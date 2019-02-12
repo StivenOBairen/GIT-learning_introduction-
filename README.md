@@ -15,3 +15,4 @@ Working with project`s version controll system (GIT) requires several steps*:
 **for Windows Setup*
 
 ## *Licence*
+GNU General Public License
