@@ -1,0 +1,76 @@
+
+.header{
+	font-family: "OpenSans", sans-serif;
+	background-image: url("https://www.digitalic.it/wp-content/uploads/2015/10/zac10_ok.png");
+	background-repeat: no-repeat;
+  background-size: cover;
+	position: relative;
+	background-color: #ffffff;
+	margin-bottom: 63px;
+ }
+
+.header-container {		
+  position: relative;
+	display: flex;
+	//justify-content: space-between;
+	padding: 36px 15px 0;
+	width: 1700px;
+	min-width: 1170px;
+	margin: 0 auto 20px 0;
+}
+
+.header-container-logo {
+	background-color: #FFFFFF;
+	border-radius: 35px;
+	opacity: 0.9;
+}
+
+.menu {
+	font-size: 13x;
+}
+
+.menu-list {	
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	margin: 0;
+	padding-bottom: 13px;
+	font-size: 19px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+
+.menu-list-item {
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #F0E68C;
+}
+
+.menu-list-item:nth-child(n+2) {
+	margin-left: 177px;
+}
+
+.menu-link {
+	color: #000000;
+	text-decoration: none;
+}
+
+.slogan-title {	
+	font-size: 19px;
+	margin-left: 50px;
+	margin-top: 50px;
+	padding: 10px;
+	width: 780px;
+	text-align: center;
+	background-color: #e2f2f5;
+	border-radius: 15px;
+	opacity: 0.9;
+}
+
+
+.menu-list-item:hover {			
+			filter: invert(100%);
+			border-radius: 13px;
+			background-color: #ed6d51;
+}
